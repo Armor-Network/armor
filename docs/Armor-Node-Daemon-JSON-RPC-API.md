@@ -1769,4 +1769,7 @@ __Output:__
 
 ### 12. `submit_block`
 Used by miners.
+```
+curl -d '{"jsonrpc":"2.0","id":"0","method":"submit_block","params":{"blocktemplate_blob": "0100b...."}}' https://127.0.0.1:58081/json_rpc
+```
 
